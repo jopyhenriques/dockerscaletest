@@ -13,7 +13,7 @@ RUN npm install
 
 # expose port
 
-EXPOSE 8080
+EXPOSE 80
 
 # execute server.js
 
