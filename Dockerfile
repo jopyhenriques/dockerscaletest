@@ -14,7 +14,7 @@ RUN npm install
 # expose port
 
 
-EXPOSE 81
+EXPOSE 80
 
 # execute server.js
 
