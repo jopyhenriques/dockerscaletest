@@ -12,6 +12,7 @@ ADD ./ .
 RUN npm install
 
 # expose port
+# testing automatic build in dockerhub
 
 EXPOSE 80
 
