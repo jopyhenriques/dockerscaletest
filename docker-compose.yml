@@ -1,10 +1,9 @@
-
-web:
-  build: .
-  ports:
-    - "80:80"
-  links:
-    - db:dbalias
-db:
-  image: mongo:latest
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+     - "8080:80"
+  mongodemo: 
+    image: mongo:latest
 
