@@ -1,4 +1,4 @@
-FROM    node:latest
+FROM    node:5.9.0
 
 MAINTAINER Jopy Henriques (jopy.c.henriques@accenture.com)
 
