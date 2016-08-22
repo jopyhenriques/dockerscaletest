@@ -4,6 +4,9 @@ services:
     build: .
     ports:
      - "8080:80"
-  mongodemo: 
+    depends_on:
+     - "mongodemo"
+    entrypoint: ./wait-for-it.sh mongodemo:27017
+  mongodemo:
     image: mongo:latest
 
